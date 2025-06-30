@@ -1,0 +1,330 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #161513;
+}
+
+.nav-bar{
+    left: 0px;
+    top: 0px;
+    height:82.18px;
+    width: 1440px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    letter-spacing: 2%;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 36px;
+}
+.nav-bar-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.container{
+    background-color: #222222;
+    text-decoration: none;
+    color: #ffffff;
+}
+.container:hover{
+    color: rgb(164, 10, 188);
+}
+@media (min-width : 461px) and (max-width : 680px )
+{
+    .logo
+    {
+        font-size: 20px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;        
+    }
+    .nav-bar-list{
+        font-size: 13px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width : 460px)
+{
+    .logo
+    {
+        font-size: 20px;
+    }
+    .nav-bar-list
+    {
+        font-size: 13px;
+    }
+    .nav-bar
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.image{
+    width: 213px;
+    height: 213px;
+    background: #FF8660;
+    background: linear-gradient(90deg, rgba(255, 134, 96, 1) 0%, rgba(128, 0, 255, 1) 100%);
+    border-radius: 106.5px;
+    margin-top: 190px;
+    left: 598px;
+
+}
+.title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 55px;
+    font-style: normal;
+    line-height: 63.36px;
+    margin-top: 40px ;
+    left: 384px;
+    color: #ffffff;
+    text-align: center;
+    width: 670px;
+    height: 127px;
+}
+.about-me{
+    margin-top: 39px ;
+    left: 384px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300px;
+    font-size: 18px;
+    letter-spacing: 2%;
+    text-align: center;
+    width: 679px;
+    color: #C5C5C5;
+}
+@media (max-width : 680px) 
+{
+
+    .title
+    {
+        font-size: 35px;
+    }
+    .about-me
+    {
+        font-size: 12px;
+    }
+
+}
+span{
+    background: linear-gradient(90deg, rgba(255, 134, 96, 1) 0%, rgba(128, 0, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 54px;
+
+}
+.button-dir{
+    padding: 16px 30px;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-size: 21.38px;
+}
+.get{
+    color: #161513;
+    background-color: #ffffff;
+
+}
+.cv {
+    color: #ffffff;
+}
+.button-dir:hover {
+    background: linear-gradient(90deg, rgba(255, 134, 96, 1) 0%, rgba(128, 0, 255, 1) 100%);
+}
+.experience{
+    color: #C5C5C5;
+    margin-top: 88px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60.45px;
+    margin-top: 48px;
+}
+.project{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 800px;
+    background: linear-gradient(90deg, rgba(255, 134, 96, 1) 0%, rgba(213, 73, 29, 1) 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 99px;
+    text-transform: uppercase;
+}
+.example-course{
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width : 840px) 
+{
+    .example-course
+    {
+        flex-direction: column;
+    }
+}
+.my-experience{
+    background: linear-gradient(90deg, #5BADFF 0%,#1373D1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+     color: transparent;
+     text-align: center;
+     font-family: "Poppins", sans-serif;
+     font-size: 35px;
+     font-weight: 800px;
+     margin-top: 96px;
+     text-transform: uppercase;
+}
+.details-experience{
+    display: grid;
+    grid-template-columns: 810px;
+    justify-content: center;
+    margin-top: 57px;
+    row-gap: 30px;
+}
+.text-experience{
+display: flex;
+align-items: center;
+justify-content: space-between
+}
+@media (max-width : 840px) 
+{
+    .text-experience
+    {
+        flex-direction: column;
+    }
+    .shared-style2
+    {
+        display: grid;
+        grid-template-columns: 470px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+}
+.style-experience{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    gap: 15px;
+}
+.shared-style1{
+    font-family: "Poppins", sans-serif;
+    font-size: 21.74px;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+.shared-style2{
+    font-family: "Poppins", sans-serif;
+    font-size: 14.49px;
+    font-weight: 400;
+    color: #8491A0;
+}
+.shared-style3{
+    font-family: "Poppins", sans-serif;
+    font-size: 14.49px;
+    font-weight: 400;
+    color: #8491A0;
+}
+.contact{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 107px;
+    height: 418.76px;
+}
+.bacground-contact{
+    background-color: #191919;
+}
+.contact-title{
+    margin-top: 82.63px;
+}
+.text-contact {
+    margin-top: 34.37px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14.12px;
+    font-weight: 300; 
+    color: #8491A0;
+    letter-spacing: 2%;
+}
+@media (max-width : 680px)
+{
+    .contact
+    {
+        text-align: center;
+    }
+    .gmail-contact
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-icon
+    {
+        justify-content: center;
+        align-items: center;
+    }
+}
+.gmail-contact{
+    margin-top: 22px;
+    display: flex;
+    gap: 5.5px;
+}
+.contact-icon{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.gmail-contact{
+       font-family: "Poppins", sans-serif;
+    font-size: 14.12px;
+    font-weight: 600;
+    color: #8491A0;
+    letter-spacing: 2%;
+}
