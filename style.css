@@ -35,10 +35,8 @@
     text-decoration: none;
     color: #ffffff;
 }
-.container:hover{
-    color: rgb(164, 10, 188);
-}
-@media (min-width : 461px) and (max-width : 680px )
+
+@media (max-width : 768px)
 {
     .logo
     {
@@ -55,21 +53,8 @@
     }
 
 }
-@media (max-width : 460px)
-{
-    .logo
-    {
-        font-size: 20px;
-    }
-    .nav-bar-list
-    {
-        font-size: 13px;
-    }
-    .nav-bar
-    {
-        display: flex;
-        flex-direction: column;
-    }
+.li-st:hover{
+    color: rgb(149, 68, 225);
 }
 
 
@@ -81,6 +66,8 @@
     align-items: center;
 
 }
+
+
 .image{
     width: 213px;
     height: 213px;
@@ -115,7 +102,7 @@
     width: 679px;
     color: #C5C5C5;
 }
-@media (max-width : 680px) 
+@media (max-width : 768px)
 {
 
     .title
@@ -199,7 +186,7 @@ span{
     gap: 30px;
 }
 
-@media (max-width : 840px) 
+@media (max-width : 768px) 
 {
     .example-course
     {
@@ -230,7 +217,7 @@ display: flex;
 align-items: center;
 justify-content: space-between
 }
-@media (max-width : 840px) 
+@media (max-width : 768px) 
 {
     .text-experience
     {
@@ -293,7 +280,7 @@ justify-content: space-between
     color: #8491A0;
     letter-spacing: 2%;
 }
-@media (max-width : 680px)
+@media (max-width : 768px)
 {
     .contact
     {
